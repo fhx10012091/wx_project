@@ -1,0 +1,10 @@
+<view class="container">
+  <image 
+  src="{{latest?disLeftSrc: leftSrc}}"
+  catch:tap="onLeft"/>
+  <text 
+  class="title">{{title}}</text>
+  <image 
+  src="{{first?disRightSrc: rightSrc}}"
+  catch:tap="onRight"/>
+</view>

@@ -1,0 +1,10 @@
+<view class="container" catch:tap="onChange">
+  <image src="{{book.image}}"></image>
+  <view class="description">
+    <text class="title">{{book.title}}</text>
+    <text class="author">{{book.author}}</text>
+    <view class='foot'>
+      <text class="footer" wx:if="{{book.fav_nums}}">{{book.fav_nums}}  喜欢</text> 
+    </view>
+  </view>
+</view>
